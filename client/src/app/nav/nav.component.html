@@ -31,7 +31,7 @@
               </div>
 
 
-              <form *ngIf="!loggedIn" #loginForm="ngForm" class="d-flex"> (ngSubmit)="login()">
+              <form *ngIf="!loggedIn" #loginForm="ngForm" class="d-flex"> (ngSubmit)="login()" >
                 <input 
                 name="username"
                 [(ngModel)]="model.username"
